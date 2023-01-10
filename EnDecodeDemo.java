@@ -40,7 +40,7 @@ public class AESEncryptionDecryptionTest {
 
     public static void main(String[] args) throws Exception {
         String value = "ttttt";
-        String valueEnc = AESEncryptionDecryptionTest.encrypt(value);
+        String valueEnc = AESEncryptionDecryptionTest.encrypt(value).replaceAll("\r\n","");
         String valueDec = AESEncryptionDecryptionTest.decrypt(valueEnc);
 
         System.out.println("Plain Text : " + value);
