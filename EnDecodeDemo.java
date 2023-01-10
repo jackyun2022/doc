@@ -9,7 +9,7 @@ import sun.misc.BASE64Encoder;
 public class AESEncryptionDecryptionTest {
 
     private static final String ALGORITHM       = "AES";
-    private static final String myEncryptionKey = "ThisIsFoundation";
+    private static final String myEncryptionKey = "w9o_hoox.TK@J_yj";
     private static final String UNICODE_FORMAT  = "UTF8";
 
     public static String encrypt(String valueToEnc) throws Exception {
