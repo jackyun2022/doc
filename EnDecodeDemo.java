@@ -4,6 +4,7 @@ import java.util.Base64;
 
 /**
  * 文件描述 加密解密方式
+ * 参考地址: https://github.com/fujiangwei/java-notes/tree/master/src/main/java/com/notes/java/endecode
  **/
 public class EnDecodeDemo {
 
